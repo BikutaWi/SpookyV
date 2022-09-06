@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Magazine
+  - Ground
+  - Enemy
+  - Bullet
+  - left_hand
+  - right_hand
+  - left
+  - right
+  - carton
+  - Effect
+  - KeyFountain
+  - Can
+  - Bowl
+  - BedroomKey
+  - Skorpion_Magazine
+  - Pistol
+  - Skorpion
+  - KeyCylinder
+  - KeyTent
+  - KeyDonut
+  - GardenZone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Grab_Interactable
+  - Player
+  - Ennemies
+  - RayPhysics
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

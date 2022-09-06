@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4506204492061246162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4506204492061246161}
+  - component: {fileID: 4506204492061246160}
+  m_Layer: 7
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4506204492061246161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4506204492061246162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4506204492061246160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4506204492061246162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8700c758ccf5764ebbdb8ca44c696b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: background
+    clip: {fileID: 8300000, guid: 3690d5d3bed5b7c4da037184314d276b, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 1
+    source: {fileID: 0}
+  - name: button_click
+    clip: {fileID: 8300000, guid: d3b494fac3e768342bce9410bec9d87c, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: ui_button
+    clip: {fileID: 8300000, guid: ecf17256faf2fba4397410419303a41d, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: door_knock
+    clip: {fileID: 8300000, guid: 3970e5834e6726d4aa15e0715b1b625d, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: door_open
+    clip: {fileID: 8300000, guid: 3ecf816429eb5964589b6d9cf6f8d5fa, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: lever
+    clip: {fileID: 8300000, guid: d1af40e3fe7ee6443918c018b6f09878, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: skorpion_empty
+    clip: {fileID: 8300000, guid: 5fa5a4582e5a1bd4b94f221158f7bb5b, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: skorpion_reload
+    clip: {fileID: 8300000, guid: d30f1396da3691c49a6ec29cbe66b48d, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: skorpion_shoot
+    clip: {fileID: 8300000, guid: 7c2223ffea2480e479a0869a17103233, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: gravel_steps
+    clip: {fileID: 8300000, guid: bb8b799d5fd7c6b438a2d74e6808f599, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 1
+    source: {fileID: 0}
+  - name: indoor_steps
+    clip: {fileID: 8300000, guid: 10619cc702566ed46b132f8ab0594ed1, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 1
+    source: {fileID: 0}
+  - name: water
+    clip: {fileID: 8300000, guid: c21e56b9db1ff144492e0078370d3fe2, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: pistol_empty
+    clip: {fileID: 8300000, guid: 56767bb9a40e32545a7f699e9d41b537, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: pistol_reload
+    clip: {fileID: 8300000, guid: a18fb4ec004b0da4ab4ef70aaba6f195, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: pistol_shoot
+    clip: {fileID: 8300000, guid: 196b8d154c3480b41962216db27c454c, type: 3}
+    volume: 1
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: fire_sound
+    clip: {fileID: 8300000, guid: f87a4baf33a52634fa32f9fc8b3190c8, type: 3}
+    volume: 0.71
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: writing
+    clip: {fileID: 8300000, guid: e46b5b0003bdfd84bb91546399e9dea2, type: 3}
+    volume: 0.851
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
